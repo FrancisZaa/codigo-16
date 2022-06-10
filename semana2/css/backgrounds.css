@@ -1,0 +1,34 @@
+body {
+    font-family: verdana;
+}
+
+.bg {
+    border: solid;
+    height: 300px;
+}
+
+.color-red{
+    background-color: red;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.bg-img{
+    background: url(../../semana1/images/840_560.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.big-img-kira{
+    background: url(../../semana2/imagen/death-note-jpeg.jpeg);
+    /* ESTAMOS DICIENDO QUE ESTE DIV 
+    TENGA UN ALTO DE 500PX PX ( PIXELES ) */
+    height: 500px;
+    background-size: cover;
+    /* ESTO INDICA QUE QUEREMOS MOSTRAR LA PARTE CENTRAL
+    DE LA IMAGEN */
+    background-position: center;
+    background-repeat: no-repeat;
+}

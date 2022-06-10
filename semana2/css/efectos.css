@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(190, 190, 190);
+}
+
+#contenedor{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient( to right, red 33%, white 33%, white 66%, red 66%);
+    margin: auto;
+}
+
+#contenedor:hover{
+    background: linear-gradient(to top, red 33%, white 33%, white 66%, red 66% );
+    box-shadow: none;
+}
+
+.sombra{
+    /* 1er parametro: eje X (default DERECHA) si se quiere a la ( IZQUIERDA ES CON NEGATIVO ) '-20px'*/
+    /* 2do parametro: eje Y (default ABAJO) si se quiere a la ( ARRIBA ES CON NEGATIVO ) '-20px'*/
+    /* ES OBLIGATORIO 2 EJES (px) o MAS*/
+    /* 3er parametro: blur "DIFUMINACIÓN"  - 10px DIFUMINACIÓN de la sombra */
+    /* 4TO parametro: spread (PROPAGACIÓN )10px EXPANDE de la sombra, ( SI ES NEGATIVO ) -10px LO REDUCE*/
+    /* 5TO parametro: color */
+    box-shadow: 20px 20px 10px -10px yellow;
+}
+
+.sombra_texto{
+    /* 1er parametro: eje X (default DERECHA) si se quiere a la  ( IZQUIERDA ES CON NEGATIVO ) '-20px'*/
+    /* 2do parametro: eje Y (default ABAJO) si se quiere a la ( ARRIBA ES CON NEGATIVO ) '-20px'*/
+    /* 3er parametro: blur ( "DIFUMINACIÓN" ) - 10px DIFUMINACIÓN de la sombra */
+    /* 4TO parametro: color */
+    text-shadow: 10px 10px 5px yellow;
+}
+h1{
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+}
+
+h1:hover{
+   text-decoration: underline;
+}
+
+#circulo{
+    width: 200px;
+    height: 200px;
+    /*background-color: blue; */
+    background: radial-gradient(red , white , red );
+    margin: 60px auto;
+    border-radius: 100px;
+    filter: blur(10px);
+    filter: opacity(0.45px);
+}
+
+#circulo:hover{
+    background: none;
+    background-color: blue;
+    filter: none;
+
+}
+
