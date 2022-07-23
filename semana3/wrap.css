@@ -1,0 +1,16 @@
+.container{
+    height: 100vh;
+    border: solid 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* FLEX-WRAP: WRAP: respeta el ancho de lo establecido
+    y lo manda abajo  */
+    flex-wrap: wrap;
+}
+
+.container div{
+    height: 200px;
+    width: 20%;
+    border: red solid;
+}
